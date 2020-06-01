@@ -1,0 +1,22 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "Web server for weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashishsingh2601/weatherApp.git"
+  },
+  "author": "Ashish Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashishsingh2601/weatherApp/issues"
+  },
+  "homepage": "https://github.com/ashishsingh2601/weatherApp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
