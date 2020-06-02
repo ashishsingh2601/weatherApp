@@ -41,6 +41,14 @@ app.get('/weather', (req, res)=>{       //This will render JSON
     });
 });
 
+app.get('*', (req, res)=>{
+    res.render('404', {
+        title: '404',
+        errorMessage: 'Page not found',
+        name: 'Ashish Singh'
+    });
+});
+
 app.listen(3000, ()=>{
     console.log('Server Started...');
 });
