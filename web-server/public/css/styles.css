@@ -10,9 +10,10 @@ h1{
     margin-bottom: 16px;
 }
 h2{
-    margin-top: 60px;
+    margin-top: 45px;
+    padding: 30px 0;
     color: rgb(70, 66, 66);
-    line-height: 1.5rem;
+    
 }
 body{
     min-height: 100vh;
@@ -33,11 +34,12 @@ footer{
     font-family: 'Ubuntu Condensed', sans-serif;
     letter-spacing: 0.2rem;
     word-spacing: 0.3rem;
-    background-color:darkgray;
-    color: #fff;
-    padding: 20px;
+    background-color:rgb(245, 240, 240);
+    color: black;
+    padding: 10px;
     text-align: center;
     width: 100%;
+    border-top: 1px solid black;
 }
 
 header a{
@@ -46,9 +48,10 @@ header a{
     margin-right: 16px;
     margin-top: 20px;
 }
-/* div{
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto;
-    max-width: 900px;
-    padding: 10px 30px;
-} */
+button{
+    margin-top: 15px;
+}
+p{
+    font-size: 24px;
+    color: green;
+}
