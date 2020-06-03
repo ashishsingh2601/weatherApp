@@ -4,7 +4,8 @@
   "description": "An app for fetching real-time weather information of the location provided by user",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node  web-server/src/index.js"
   },
   "repository": {
     "type": "git",
