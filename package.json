@@ -1,7 +1,7 @@
 {
-  "name": "web-server",
+  "name": "weatherapp",
   "version": "1.0.0",
-  "description": "Web server for weather app",
+  "description": "\"Web app for fetching real time weather information of location provided by user\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,6 +20,6 @@
   "dependencies": {
     "express": "^4.17.1",
     "hbs": "^4.1.1",
-    "postman-request": "^2.88.1-postman.22"
+    "postman-request": "^2.88.1-postman.23"
   }
 }
